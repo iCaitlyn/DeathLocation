@@ -33,8 +33,6 @@ public class DeathLocation extends JavaPlugin implements Listener
     
     public void onEnable() {
         this.getServer().getPluginManager().registerEvents((Listener)this, (Plugin)this);
-        //this.getConfig().options().copyDefaults(true);
-        //this.saveDefaultConfig();
         this.reloadConfig();
         this.getConfig().options().header("Set the message sent to the player here! You can use '&' color characters!\nMake sure to include %x, %y and %z as placeholders for the coordinates!\nYou can now also set whether the latest death log should be enabled or not! This feature logs the last death of the player (Includes time and location)");
         if (!this.getConfig().contains("message")) {
@@ -51,7 +49,6 @@ public class DeathLocation extends JavaPlugin implements Listener
             this.getConfig().set("use-permission-for-log", (Object)true);
         }
         this.saveConfig();
-        //this.getConfig().setDefaults(getConfig());
         this.log = new Config(this, "latestdeathlog.yml");
     }
     
@@ -186,10 +183,7 @@ public class DeathLocation extends JavaPlugin implements Listener
                         return false;
                     }
                 }
-                
-                //this.getConfig().options().copyDefaults(true);
-                //this.saveConfig();
-                //this.saveDefaultConfig();
+              	
                 this.reloadConfig();
                 
                 this.getConfig().options().header("Set the message sent to the player here! You can use '&' color characters!\nMake sure to include %x, %y and %z as placeholders for the coordinates!\nYou can now also set whether the latest death log should be enabled or not! This feature logs the last death of the player (Includes time and location)");
