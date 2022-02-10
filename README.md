@@ -14,7 +14,7 @@ Due to years of being abandoned, we had taken it upon ourselves to update and ma
   
 ## Permissions
 - dl.use
-  - description: Used to send a message to the player with the death location
+  - description: Used to send a message to the player with the death location. Also allows use of the "/pdl check" command.
   - default: OP
 - dl.return
   - description: Allows the player to use the "/dl return" command
