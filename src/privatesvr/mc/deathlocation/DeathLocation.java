@@ -1,4 +1,4 @@
-package private.mc.deathlocation;
+package privatesvr.mc.deathlocation;
 
 import org.bukkit.event.EventHandler;
 import java.text.SimpleDateFormat;
