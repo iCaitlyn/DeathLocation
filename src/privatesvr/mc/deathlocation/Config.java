@@ -1,4 +1,4 @@
-package private.mc.deathlocation;
+package privatesvr.mc.deathlocation;
 
 import java.io.IOException;
 import java.util.logging.Level;
