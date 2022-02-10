@@ -1,0 +1,19 @@
+name: DeathLocation
+main: private.mc.deathlocation.DeathLocation
+version: 1.7.1
+author: Yupie (Yupie123), iCaitlyn
+description: >
+             Tells a player where they died!
+commands:
+  dl:
+     description: Shows help about the plugin.
+permissions:
+  dl.lookup:
+     description: Used for /dl lookup to lookup a players latest death location.
+     default: OP
+  dl.use:
+     description: Used to send a message to the player with the death location, as well as log their latest death location. Also allows them to use /dl check.
+     default: OP
+  dl.return:
+     description: Used for /dl return to let the player return to their latest death location. 
+     default: OP
