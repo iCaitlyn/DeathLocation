@@ -1,5 +1,5 @@
 name: DeathLocation
-main: private.mc.deathlocation.DeathLocation
+main: privatesvr.mc.deathlocation.DeathLocation
 version: 1.7.1
 author: Yupie (Yupie123), iCaitlyn
 description: >
